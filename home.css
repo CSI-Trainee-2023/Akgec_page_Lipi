@@ -40,7 +40,7 @@
 
 .logo{
     align-items:center;
-    justify-content: space;
+    justify-content: space-between;
      height:10px;
     width:10px; 
     padding:10px;
@@ -58,7 +58,6 @@ div.scroll-container {
     white-space:nowrap;
     padding:10px;
 }
-
 
 .marquee{
     background-color:rgb(255, 213, 0) ;
