@@ -2,16 +2,17 @@
     padding:0;
     margin:0;
 }
-
-
+ 
+ 
 /* Style the navbar */
-.navbar {
+ .navbar {
     background-color: #212529;
-    overflow:hidden;
+    overflow: hidden;
 }
 
+
 /* Style the navbar links */
- .navbar a {
+.navbar a {
     float: left;
     display: block;
     color: rgb(242, 238, 238);
@@ -20,34 +21,55 @@
     text-decoration: none;
 }
 
- /* Change the color of the navbar links when you hover over them */
- .navbar a:hover {
-    background-color:rgb(248, 215, 5);
-    color: rgb(7, 7, 7);
+
+/* Change the color of the navbar links when you hover over them */
+.navbar a:hover {
+    background-color: hwb(52 1% 1%);
+    color: rgba(39, 39, 37, 0.947);
 }
 
 .toolbar{
     display:flex;
     align-items: center;
-    justify-content:space-between; 
-
-    overflow-x:clip ;
-    padding:20px 0; 
-    background-color:ghostwhite;
+     justify-content:space-around; 
+     position:block; 
+     padding:20px 0; 
+    background-color:ghostwhite ;
 }
+
+
 .logo{
     align-items:center;
     justify-content: space;
-    height:10px;
+     height:10px;
     width:10px; 
     padding:10px;
     margin-bottom: 60px;
-    
-   }
+    }
+
 
 .heading{
     text-align:center;
 }
+
+div.scroll-container {
+    background-color: #333;
+    overflow:auto;
+    white-space:nowrap;
+    padding:10px;
+}
+
+
+.marquee{
+    background-color:rgb(255, 213, 0) ;
+    color: #fa0606;
+    font-size:20px;
+    padding-top:20px;
+    font: 20px bold;
+    margin-top:5px;
+}
+
+
 
 /*footer */
 .footerContainer{
@@ -92,38 +114,6 @@
     
     color:#ffc107;
     margin-top:150px;
-
 }
 
 
-
-
-
-    
-
-.career{
-    background-color: #2f2f29 ;
-    text-align:center;
-    height:100px;
-    padding:15px 0;
-    color:rgb(253, 232, 3);
-    font-size:40px;
-    }
-
-
-    h4{
-        color:rgb(247, 248, 250);
-        font-size:30px;
-    }
-
-
-.image{
-    display:flex;
-    /* justify-content:center; */
- /* margin-left: 400px; */
-      }
-    
-     
-
-
-        

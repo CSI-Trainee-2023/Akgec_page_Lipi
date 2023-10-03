@@ -1,6 +1,13 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+
+
 /* Style the navbar */
 .navbar {
-    background-color: #3b3b34;
+    background-color: #212529;
     overflow: hidden;
 }
 
@@ -28,9 +35,11 @@
      padding:20px 0; 
     background-color:ghostwhite;
 }
+
+
 .logo{
     align-items:center;
-    justify-content: space;
+   
     padding:10px 0;
 }
 
@@ -42,21 +51,6 @@
 
 
 
-.bgImage::before{
-    content:"";
-    position:absolute;
-    top:0px;
-    left:0px;
-    width:100%;
-    height:100%;
-    z-index: -1;
-    opacity:0.9;
-    background: url('akg_bg.jpg') no-repeat center center/cover;
-}
-.bgImage{
-    position: relative;
-}
-
 
 .about{
     background-color: #2f2f29 ;
@@ -65,7 +59,75 @@
     padding:15px 0;
     color:rgb(253, 203, 3);
     font-size:40px;
-    
-
-    
 }
+
+
+p{
+    overflow:hidden;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+
+  .highlights{
+    border-radius:40px;
+    width:50%;
+   padding:10px;
+    text-align:center;
+    background-color: #ffc107;
+    margin:auto;
+  }
+
+/*footer */
+.footerContainer{
+    background-color: #212529;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    border-top: solid 5px rgb(255, 221, 0);
+    display:block-inline;
+    box-sizing:border-box;
+   }
+  
+ 
+  .address{
+    margin: 100px;
+    
+  }
+
+  
+  .quickLinks a{
+   
+    color:white ;
+    float:right;
+    text-decoration:none;
+    
+  }
+
+  
+  .quickLinks h3{
+    color:#ffc107;
+    font-weight:bold;
+   
+}
+
+
+.quicklinks li{
+    text-decoration: none;
+}
+
+
+.shortAbout h3{
+    
+    color:#ffc107;
+    margin-top:150px;
+
+}
+
+.career{
+    background-color: #2f2f29 ;
+    text-align:center;
+    height:100px;
+    padding:15px 0;
+    color:rgb(253, 232, 3);
+    font-size:40px;
+    }
